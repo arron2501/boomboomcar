@@ -1,0 +1,109 @@
+object FormUtama: TFormUtama
+  Left = 1161
+  Height = 500
+  Top = 274
+  Width = 489
+  Caption = 'Thread'
+  ClientHeight = 500
+  ClientWidth = 489
+  LCLVersion = '2.0.10.0'
+  object ButtonMessage: TButton
+    Left = 32
+    Height = 81
+    Top = 400
+    Width = 200
+    Caption = 'Penjelasan Singkat'
+    OnClick = ButtonMessageClick
+    TabOrder = 0
+  end
+  object ButtonStart: TButton
+    Left = 32
+    Height = 25
+    Top = 104
+    Width = 200
+    Caption = 'Start Memo1'
+    OnClick = ButtonStartClick
+    TabOrder = 1
+  end
+  object Memo: TMemo
+    Left = 32
+    Height = 208
+    Top = 144
+    Width = 200
+    ScrollBars = ssAutoVertical
+    TabOrder = 2
+  end
+  object ButtonForm2: TButton
+    Left = 258
+    Height = 81
+    Top = 400
+    Width = 200
+    Caption = 'Open Mini Game'
+    OnClick = ButtonForm2Click
+    TabOrder = 3
+  end
+  object Label1: TLabel
+    Left = 32
+    Height = 34
+    Top = 16
+    Width = 426
+    Caption = 'Project UTS Sistem Operasi - TIF17'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -27
+    Font.Name = 'Product Sans'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 104
+    Height = 24
+    Top = 56
+    Width = 292
+    Caption = 'Build by: Rivaltino Arron - 32180050'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -19
+    Font.Name = 'Product Sans'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 72
+    Height = 17
+    Top = 368
+    Width = 346
+    Caption = 'You can do another tasks while another process is running. . .'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Product Sans'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsItalic]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Memo2: TMemo
+    Left = 258
+    Height = 208
+    Top = 144
+    Width = 200
+    ScrollBars = ssAutoVertical
+    TabOrder = 4
+  end
+  object ButtonSecThread: TButton
+    Left = 258
+    Height = 25
+    Top = 104
+    Width = 200
+    Caption = 'Start Memo2'
+    OnClick = ButtonSecThreadClick
+    TabOrder = 5
+  end
+end
